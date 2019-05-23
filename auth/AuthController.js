@@ -45,9 +45,6 @@ router.post('/login', function(req, res) {
 
 });
 
-router.get('/logout', function(req, res) {
-  res.status(200).send({ auth: false, token: null });
-});
 
 router.post('/register', function(req, res) {
 
